@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+#home{
+  background-color: blue;
+  /* display: table-row; */
+
+  height:200px;
+  flex-wrap:wrap;
+  display:flex;
+}
+.itemList{
+  list-style-type:none;
+  display: flex;
+  justify-content:space-around;
+}
+.listItem{
+  padding:10px;
+}
+#formPage{
+  display:flex;
+  text-align: center;
+  background-color:green;
+}
+#entry{
+  text-align: center; 
+}

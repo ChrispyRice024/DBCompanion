@@ -18,7 +18,7 @@ export default function NewEntry() {
         price: price,
         tags:tags
     }
-    const url = 'http://localhost:6001'
+    const url = 'https://dark-erin-goshawk-toga.cyclic.app/item'
 
     const createImage = (newImage) => axios.post(url, newImage)
 
